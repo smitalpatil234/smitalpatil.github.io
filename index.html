@@ -1,7 +1,23 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <title>Smital Patil's Portal</title>
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    /* CSS for side-by-side layout */
+    .research-container {
+      display: flex;
+      gap: 20px;
+    }
+    .research-container article {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
   <header>
     <title>Smital Patil's Portal</title>
     <link rel="stylesheet" href="css/master.css">
@@ -9,47 +25,60 @@
     <link rel="shortcut" href="favicon.ico" type="image/x-icon">
     <meta name="viewport" content="widht=device-width, initial-scale=1, shrink-to-fit=yes">
     <meta name="name" content="Smital Patil's Portal">
-  <!--  <meta name="robots" content="noindex, nofollow">  -->
+    <!--  <meta name="robots" content="noindex, nofollow">  -->
   </header>
+
   <body>
     <img src="images/smital.jpg" width="12%" alt="banner">
     <h1>Smital Patil</h1>
     <h2>About Me</h2>
     <p>I am an ML and data science enthusiast who likes to use technology for social well-being.</p>
     <p>I love challenges before me.</p>
-      <p>I keep trying new things and experimenting in different areas.</p>
+    <p>I keep trying new things and experimenting in different areas.</p>
 
     <h2>Credentials and Portfolio</h2>
-
-    <p><a href="https://docs.google.com/document/d/13W1yeB5mc3bBNQm-V1KhZnTJDZ3fe3T0_GpBq-1u48A/edit?usp=sharing"target="_blank">My Resume</a> | <a href="https://github.com/smitalpatil234"target="_blank">My GitHub</a> | <a href="https://www.linkedin.com/in/smitalpatil/"target="_blank">LinkedIn</a></p>
+    <p>
+      <a href="https://docs.google.com/document/d/13W1yeB5mc3bBNQm-V1KhZnTJDZ3fe3T0_GpBq-1u48A/edit?usp=sharing" target="_blank">My Resume</a> |
+      <a href="https://github.com/smitalpatil234" target="_blank">My GitHub</a> |
+      <a href="https://www.linkedin.com/in/smitalpatil/" target="_blank">LinkedIn</a>
+    </p>
 
     <h2>Research Work</h2>
 
-<h3>Key Facial Landmark Detection (Under peer review for paper)</h3>
-  <p>
-    [Abstract]
-  </p>
-</p>
-Facial landmark detection is a key step in facial analysis for artificial emotional intelligence.
-In this paper, facial landmark detection includes identification of important parts of the face such as
-the eyes, corners of eyes and mouth, eyebrows, jaw points and nose. We propose a deep learning
-model based on Convolutional Neural Network(CNN) and Residual blocks to predict facial
-landmarks. The CNN architecture consists of a convolutional layer with ReLU, a pooling layer, and
-lastly fully connected dense layers. To avoid the vanishing gradient issue, we will be using Residual
-Convolutional Neural Network(RCNN). The proposed network did very well in placing the
-coordinates on the right areas of the face.
-</p>
-  <p>
-  Poster: <a href="https://drive.google.com/file/d/1ZwTSVbyo7dHMI7CvmdrACUXOjzh3uYXr/view?usp=sharing" target="_blank">View Poster</a>
-  Certificate of Participation: <a href="https://drive.google.com/file/d/16eYVb170VsMQkbVFzbyF45zgshnYSnAi/view?usp=sharing" target="_blank">View Certificate</a>
-  </p>
+    <section id="research">
+      <div class="research-container">
+        <article>
+          <h3>Key Facial Landmark Detection (Under peer review for paper)</h3>
+          <p>
+            Facial landmark detection is a key step in facial analysis for artificial emotional intelligence.
+            <!-- Abstract and details of the research -->
+          </p>
+          <!-- Details of the first research project -->
+          <p>
+            Facial landmark detection involves identifying crucial parts of the face like eyes, mouth corners, eyebrows, jaw points, and nose. We propose a deep learning model using CNN and Residual blocks to predict facial landmarks. The CNN architecture consists of convolutional layers with ReLU, pooling layers, and fully connected dense layers. To address gradient issues, we use Residual Convolutional Neural Network(RCNN). The proposed network performs well in placing coordinates on the right areas of the face.
+          </p>
+          <p>
+            Poster: <a href="https://drive.google.com/file/d/1ZwTSVbyo7dHMI7CvmdrACUXOjzh3uYXr/view?usp=sharing" target="_blank">View Poster</a> |
+            Certificate of Participation: <a href="https://drive.google.com/file/d/16eYVb170VsMQkbVFzbyF45zgshnYSnAi/view?usp=sharing" target="_blank">View Certificate</a>
+          </p>
+        </article>
 
-<h2>Contact</h2>
-<p>Email: <a href="mailto:smitalpatil234@gmail.com">smitalpatil234@gmail.com</a></p>
+        <article>
+          <h3>Facial Expression Recognition Using CNN</h3>
+          <p>
+            [Abstract]
+          </p>
+          <!-- Details of the other research project -->
+        </article>
+      </div>
+    </section>
 
-<footer>
-  <hr>
-  <code>Copyright (c) 2021 Smital Patil</code>
-</footer>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:smitalpatil234@gmail.com">smitalpatil234@gmail.com</a></p>
 
+    <footer>
+      <hr>
+      <code>Copyright (c) 2021 Smital Patil</code>
+    </footer>
+  </body>
 </html>
