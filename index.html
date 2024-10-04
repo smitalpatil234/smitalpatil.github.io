@@ -83,7 +83,22 @@ Orthogonal Information with LBP</h3>
           </p>
           <!-- Details of the other research project -->
           <p>
-            Facial landmark detection is a key step in facial analysis for artificial emotional intelligence. In this paper, facial landmark detection includes identification of important parts of the face such as the eyes, corners of eyes and mouth, eyebrows, jaw points and nose. We propose a deep learning model based on Convolutional Neural Network(CNN) and Residual blocks to predict facial landmarks. The CNN architecture consists of a convolutional layer with ReLU, a pooling layer, and lastly fully connected dense layers. To avoid the vanishing gradient issue, we will be using Residual Convolutional Neural Network(RCNN). The proposed network did very well in placing the coordinates on the right areas of the face.
+            Local binary patterns (LBPs) have been fundamental in image processing and machine learning, yet they
+exhibit limitations such as low preference, generalisation issues, and restricted neighbourhood sampling. To address
+these, we propose three novel feature extraction techniques: horizontal orthogonal information fused LBP (HOI-LBP),
+vertical orthogonal information fused LBP (VOI-LBP), and multiplied orthogonal information fused LBP (MOI-LBP).
+These proposed techniques integrate orthogonal information from the outer 5x5 neighbourhood through logical bitwise
+fusion with the traditional LBP 3x3 operator. We enhance feature richness and noise robustness by leveraging logical
+combinations of AND and OR operations on the cyclic 8-bit pairs of corner, horizontal, and vertical pairs of pixels
+surrounding the central pixel in the LBP’s outer neighbourhood. Experimental evaluations across diverse benchmark
+datasets, including dog versus cat, CIFAR-10, and MNIST, demonstrate the efficacy of the proposed techniques. We train
+different deep learning models, such as VGG-16, MobileNet, and EfficientNet B0. The HOI-LBP, VOI-LBP, and MOILBP
+features consistently do better than regular LBP, showing an average increase of 6.63% training accuracy, and 4.7%
+in test accuracy. Furthermore, average reductions of 9.46% and 7.51% in training and validation losses signify improved
+convergence and generalisation capabilities. These results show that by capturing subtle variations in texture, gradient
+energies, and structural patterns, the fused features offer a more comprehensive representation of image content. Thus,
+the proposed techniques introduce a paradigm shift in image processing and machine learning, empowering finer detail
+capture and improved performance across diverse applications.
           </p>
         </article>
       </div>
